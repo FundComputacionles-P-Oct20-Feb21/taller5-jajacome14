@@ -1,0 +1,31 @@
+
+1. Inicio
+
+2. (descripcion_articulo, x(30)[{a-z],{BS},{a-z}])
+3. cantidad_pedida, i[0, n]
+4. precio_unitario, d[0, n]
+5. costo_pedido_articulo, d[0, n]
+6. descuento, d[0, n]
+7. porcentaje, d[0, n] <-- 15
+
+
+8. Escribir "Ingresar la descripción del articulo"
+9. Leer descripcion_articulo
+10. Escribir "Ingresar la cantidad que se requiere"
+11. Leer cantidad_pedida
+12. Escribir "Ingresar el precio unitario del articulo"
+13. Leer precio_unitario
+
+14. costo_pedido_articulo <-- cantidad_requerida * precio_unitario
+
+15. Si cantidad_pedida > 50 entonces
+16. descuento <-- (porcentaje * costo_pedido_articulo)/100
+17. costo_pedido_articulo <-- costo_pedido_articulo - descuento
+18. Fin si
+19. Escribir <-- "El articulo es: "+ descipcion_articulo
+20. Escribir <-- "El costo es: "+ costo_pedido_articulo
+
+21. Fin
+
+
+l´+
